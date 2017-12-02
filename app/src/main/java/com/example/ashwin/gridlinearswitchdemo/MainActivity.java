@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
         mLayoutManager = new GridLayoutManager(this, 2);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-        // Default setGridLayout layout
         setDefaultLayout();
     }
 
